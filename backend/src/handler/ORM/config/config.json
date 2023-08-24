@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Sintiadwi.18",
+    "port":"1512",
+    "database": "car_management_db",
+    "host": "localhost",
+    "dialect": "postgres",
+    "logging": false 
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Sintiadwi.18",
+    "port":"1512",
+    "database": "car_management_db_staging",
+    "host": "localhost",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "Sintiadwi.18",
+    "port":"1512",
+    "database": "car_management_db_production",
+    "host": "localhost",
+    "dialect": "postgres",
+    "logging": false
+  }
+}
+
