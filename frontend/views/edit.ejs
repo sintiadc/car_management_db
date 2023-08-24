@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("./formejs/head") %> <%- include("./formejs/script") %>
+
+    <script src="./scripts/scripts2/editCar.js" defer></script>
+    <script src="./scripts/edit.js" defer></script>
+    <title>BCR - Edit Car</title>
+  </head>
+  <body>
+    <%- include("./formejs/nav") %>
+    <span class="form-overlay">
+      <span id="html-spinner"></span>
+    </span>
+    <main>
+      <header>
+        <ul class="nav-path">
+          <li>Cars</li>
+          <li>
+            <img src="img/icons/filepath.png">
+            <a href="/">List Car</a>
+          </li>
+          <li>
+            <img src="img/icons/filepath.png">
+            <a href="">Update Car Information</a>
+          </li>
+        </ul>
+
+        <h1>Update Car Information</h1>
+      </header>
+
+      <%- include("./formejs/form") %>
+    </main>
+  </body>
+</html>
